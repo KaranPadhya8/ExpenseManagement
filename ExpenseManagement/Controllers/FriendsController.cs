@@ -35,6 +35,7 @@ namespace ExpenseManagement.Controllers
                      PaymentId = f.PaymentId,
                      GroupId = f.GroupId,
                      Balance = f.Balance,
+                     currencyId = f.currencyId,
                  }) ;
             return friend.ToList();
         }
